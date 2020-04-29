@@ -149,7 +149,7 @@ class BannerAnim extends Component {
       this.autoPlay();
     }
     const { differ, rectName } = this.getDiffer(e, e.changedTouches);
-    delete this.mouseStartXY;
+    this.mouseStartXY = undefined;
     this.mouseMoveType = 'end';
     if (!differ) {
       this.mouseMoveType = '';

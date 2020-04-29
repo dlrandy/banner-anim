@@ -8,14 +8,14 @@
     "react-banner-anim",
     "banner-anim"
   ],
-  "homepage": "https://github.com/react-component/banner-anim",
+  "homepage": "https://github.com/dlrandy/banner-anim",
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-component/banner-anim.git"
+    "url": "https://github.com/dlrandy/banner-anim.git"
   },
   "bugs": {
-    "url": "https://github.com/react-component/banner-anim/issues"
+    "url": "https://github.com/dlrandy/banner-anim/issues"
   },
   "files": [
     "lib",

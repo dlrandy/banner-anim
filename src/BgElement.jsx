@@ -38,8 +38,8 @@ export default class BgElement extends React.Component {
     this.isVideo = toArrayChildren(props.children).some(item => item.type === 'video');
     if (this.isVideo) {
       // 如果是 video，删除 grid 系列，位置发生变化，重加载了 video;
-      delete animType.grid;
-      delete animType.gridBar;
+      animType.grid = undefined;
+      animType.gridBar= undefined;
     }
     if (props.scrollParallax) {
       this.scrollParallaxDuration = props.scrollParallax.duration || 450;
