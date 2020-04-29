@@ -1,5 +1,5 @@
 {
-  "name": "@dlrandy/rc-banner-anim",
+  "name": "rc-banner-anim-strict-mode",
   "version": "2.4.4",
   "description": "banner-anim animation component for react",
   "keywords": [

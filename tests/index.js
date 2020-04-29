@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import PropTypes from 'prop-types';
 import expect from 'expect.js';
-import BannerAnim from '@dlrandy/rc-banner-anim';
+import BannerAnim from 'rc-banner-anim-strict-mode';
 import TestUtils from 'react-dom/test-utils';
 import '../assets/index.less';
 import '../examples/assets/index.less';
